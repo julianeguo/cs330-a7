@@ -1,10 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 1.0rem;
+    padding: 1.0rem;
     border: none;
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
   }
   
-  body {
-    font-size: 14px;
+  /* body {
+    font-size: 15px;
+  } */
+  h1 {
+    font-size: 2.0rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .search-container {
+    display: flex; /* Arranges input and button side-by-side */
+    align-items: center; /* Vertically aligns elements */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .my-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .my-button:hover {
+      background-color: #0056b3;
+  }
+
+  #searchbar {
+    margin: 1.0rem;
+    padding: 1.0rem;
+    width: 75%;
+    box-sizing: border-box;
+    color:blue;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    outline: 1.5px solid grey;
+    border-radius: 1rem;
   }
