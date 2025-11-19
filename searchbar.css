@@ -1,6 +1,6 @@
 * {
     margin: 1.0rem;
-    padding: 1.0rem;
+    padding: 0.5rem;
     border: none;
     font-family: Helvetica, sans-serif;
   }
@@ -12,8 +12,8 @@
     font-size: 2.0rem;
   }
 
-  p {
-    font-size: 1.1rem;
+  p, label {
+    font-size: 1.2rem;
   }
 
   .search-container {
@@ -24,10 +24,16 @@
     padding: 5px;
   }
 
+  /* taken from https://www.w3schools.com/css/css3_flexbox.asp */
+  .container {
+    display: flex; /* Arranges input and button side-by-side */
+    align-items: center; /* Vertically aligns elements */
+  }
+
   .my-button {
-    background-color: #007bff;
-    color: white;
+    outline: 1.5px solid grey;
     border: none;
+    font-size: 1.2rem;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
@@ -36,17 +42,35 @@
   }
 
   .my-button:hover {
-      background-color: #0056b3;
+      background-color: darkgray;
   }
 
-  #searchbar {
-    margin: 1.0rem;
+  .searchbar {
+    margin: 0 0.5rem;
     padding: 1.0rem;
-    width: 75%;
+    width: 50%;
     box-sizing: border-box;
-    color:blue;
     font-family: Helvetica, sans-serif;
     font-size: 1.1em;
     outline: 1.5px solid grey;
     border-radius: 1rem;
+  }
+
+  .dropdown {
+    font-size: 0.9em;
+    outline: 1.5px solid grey;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    margin-left: auto;
+    width: 15%;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border-radius: 1rem;
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
   }

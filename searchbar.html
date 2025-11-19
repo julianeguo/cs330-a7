@@ -5,15 +5,40 @@
 </head>
 <body>
 
-  <h1>Hi!</h1>
+  <div class="container">
+    <h1>Class Search</h1>
+    <select class="dropdown" id="quarters">
+      <option value="WI 2025-26">WI 2025-26</option>
+      <option value="SP 2025-26">SP 2025-26</option>
+      <option value="SU 2025-26">SU 2025-26</option>
+      <option value="FA 2026-27">FA 2026-27</option>
+    </select>
+  </div>
   
-  <p>This is a blank template for a web page.</p>
+  <!-- taken from https://www.w3schools.com/css/css3_flexbox.asp */ -->
+  <div class="container">
+    <p>Subject</p>
+    <input class="searchbar" list="subjects" id="subject-search" type="text" name="search1" placeholder="Start typing subject (e.g. COMP_SCI)">
+    <datalist id="subjects">
+      <option value="COMP_ENG"></option>
+      <option value="COMP_LIT"></option>
+      <option value="COMP_SCI"></option>
+      <option value="COG_SCI"></option>
+    </datalist>
+  </div>
 
-  <input id="searchbar" 
-               type="text" name="search" 
-               placeholder="Search classes">
-  
-  
+  <div class="container">
+    <p>Course Number</p>
+    <input class="searchbar" id="number-search" type="text" name="search2" placeholder="Enter course number (e.g. 110)">
+  </div>
 
+  <div>
+    <input type="checkbox" id="openclassonly" name="openclassonly" />
+    <label for="openclassonly">Show Open Classes Only</label>
+  </div>
+
+  <button class="my-button" type="button">Search</button>
+
+  
 </body>
 </html>
