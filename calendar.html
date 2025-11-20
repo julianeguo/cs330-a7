@@ -1,13 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8" />
+  <title>Search Results</title>
+  <link rel="stylesheet" href="calendar.css" />
 </head>
 <body>
+  <div class="page">
+    <header class="top-bar">
+      <h1>Search Results</h1>
+      <div class="term-pill">26 WI ▾</div>
+    </header>
+    <main class="content">
+      <aside class="course-list" aria-label="Course search results">
+        <input type="text" class="course-search" placeholder="Search courses..." />
+        <div class="course-list-scroll">
+          <div class="course-pill">
+            <span class="code">CS 110</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 111</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 150</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 211</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 212</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 213</span>
+            <button class="plus-btn">+</button>
+          </div>
+          <div class="course-pill">
+            <span class="code">CS 214</span>
+            <button class="plus-btn">+</button>
+          </div>
+        </div>
+      </aside>
 
-  <h1>Template</h1>
-  
-  <p>This is a blank template for a web page.</p>
-  
+      <section class="schedule-view" aria-label="Weekly class schedule">
+
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Mo</th>
+              <th>Tu</th>
+              <th>We</th>
+              <th>Th</th>
+              <th>Fr</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr><th>9:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>10:00</th>
+              <td class="slot cs110">
+                <div class="class-title">CS 110</div>
+                <div class="class-name">Introduction to Computer Programming</div>
+              </td>
+              <td></td>
+              <td class="slot cs110">
+                <div class="class-title">CS 110</div>
+                <div class="class-name">Introduction to Computer Programming</div>
+              </td>
+              <td></td>
+              <td class="slot cs110">
+                <div class="class-title">CS 110</div>
+                <div class="class-name">Introduction to Computer Programming</div>
+              </td>
+            </tr>
+
+            <tr><th>11:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>12:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>1:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>2:00</th>
+              <td></td>
+              <td class="slot cs150">
+                <div class="class-title">CS 150</div>
+                <div class="class-name">Fundamentals of Computer Programming 1.5</div>
+              </td>
+              <td></td>
+              <td class="slot cs150">
+                <div class="class-title">CS 150</div>
+                <div class="class-name">Fundamentals of Computer Programming 1.5</div>
+              </td>
+              <td></td>
+            </tr>
+
+            <tr><th>3:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>4:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>5:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+            <tr><th>6:00</th>
+              <td></td><td></td><td></td><td></td><td></td>
+            </tr>
+
+          </tbody>
+
+        </table>
+
+        
+
+      <button class="switch-link">Switch to Results</button>
+
+      </section>
+
+    </main>
+
+  </div>
 </body>
 </html>
