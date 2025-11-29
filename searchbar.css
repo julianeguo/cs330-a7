@@ -18,7 +18,7 @@ p, label {
 }
 
 .container {
-  display: flex;            /* Arrange items in a row */
+  display: flex;            /* Arrange items in a row */ 
   align-items: center;      /* Vertically center */
 }
 
@@ -30,7 +30,7 @@ p, label {
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   font-size: 1.1em;
-  outline: 1.5px solid grey;
+  outline: 2px solid #684C96;
   border-radius: 1rem;
 }
 
@@ -41,8 +41,8 @@ p, label {
 
 /* dropdowns */
 .dropdown {
-  font-size: 0.9em;
-  outline: 1.5px solid grey;
+  font-size: 1.1em;
+  outline: 2px solid #684C96;
   margin: 0 0.5rem;
   padding: 0.5rem;
   margin-left: auto;
@@ -54,7 +54,7 @@ p, label {
 
 /* small dropdowns used for operator / filter fields */
 .small-dropdown {
-  width: 20%;
+  width: 10%;
   margin-left: 0.5rem;
 }
 
@@ -64,7 +64,7 @@ p, label {
   padding: 0.7rem 0.9rem;
   box-sizing: border-box;
   font-size: 1.0rem;
-  outline: 1.5px solid grey;
+  outline: 2px solid #684C96;
   border-radius: 1rem;
 }
 
@@ -73,12 +73,13 @@ p, label {
   display: flex;
   gap: 0.5rem;
   margin-left: 1rem;
+  accent-color: #836EAA;
 }
 
 .days-checkboxes label {
   display: flex;
   align-items: center;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
 }
 
 /* checkbox size */
@@ -87,12 +88,15 @@ input[type="checkbox"] {
   padding: 0;
   width: 20px;
   height: 20px;
+  accent-color: #836EAA;
 }
 
 /* button styling */
 .my-button {
-  outline: 1.5px solid blue;
+  outline: 2px solid #401F68;
+  background-color:#684C96;
   border: none;
+  color: white;
   font-size: 1.2rem;
   padding: 10px 20px;
   border-radius: 5px;
@@ -101,5 +105,5 @@ input[type="checkbox"] {
 }
 
 .my-button:hover {
-  background-color: lightblue;
+  background-color: #4E2A84;
 }
