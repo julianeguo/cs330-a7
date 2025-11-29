@@ -1,76 +1,105 @@
 * {
-    margin: 1.0rem;
-    padding: 0.5rem;
-    border: none;
-    font-family: Helvetica, sans-serif;
-  }
-  
-  /* body {
-    font-size: 15px;
-  } */
-  h1 {
-    font-size: 2.0rem;
-  }
+  margin: 1.0rem;
+  padding: 0.5rem;
+  border: none;
+  font-family: Helvetica, sans-serif;
+}
 
-  p, label {
-    font-size: 1.2rem;
-  }
+/* body {
+  font-size: 15px;
+} */
 
-  .search-container {
-    display: flex; /* Arranges input and button side-by-side */
-    align-items: center; /* Vertically aligns elements */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px;
-  }
+h1 {
+  font-size: 2.0rem;
+}
 
-  /* taken from https://www.w3schools.com/css/css3_flexbox.asp */
-  .container {
-    display: flex; /* Arranges input and button side-by-side */
-    align-items: center; /* Vertically aligns elements */
-  }
+p, label {
+  font-size: 1.2rem;
+}
 
-  .my-button {
-    outline: 1.5px solid grey;
-    border: none;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+.container {
+  display: flex;            /* Arrange items in a row */
+  align-items: center;      /* Vertically center */
+}
 
-  .my-button:hover {
-      background-color: darkgray;
-  }
+/* generic search bar input */
+.searchbar {
+  margin: 0 0.5rem;
+  padding: 1.0rem;
+  width: 50%;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+  outline: 1.5px solid grey;
+  border-radius: 1rem;
+}
 
-  .searchbar {
-    margin: 0 0.5rem;
-    padding: 1.0rem;
-    width: 50%;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.1em;
-    outline: 1.5px solid grey;
-    border-radius: 1rem;
-  }
+/* slightly narrower searchbar for instructor field */
+.small-searchbar {
+  width: 35%;
+}
 
-  .dropdown {
-    font-size: 0.9em;
-    outline: 1.5px solid grey;
-    margin: 0 0.5rem;
-    padding: 0.5rem;
-    margin-left: auto;
-    width: 15%;
-    box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
-    border-radius: 1rem;
-  }
+/* dropdowns */
+.dropdown {
+  font-size: 0.9em;
+  outline: 1.5px solid grey;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  margin-left: auto;
+  width: 15%;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  border-radius: 1rem;
+}
 
-  input[type="checkbox"] {
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-  }
+/* small dropdowns used for operator / filter fields */
+.small-dropdown {
+  width: 20%;
+  margin-left: 0.5rem;
+}
+
+/* time input for Meeting End Time */
+.time-input {
+  margin: 0 0.5rem;
+  padding: 0.7rem 0.9rem;
+  box-sizing: border-box;
+  font-size: 1.0rem;
+  outline: 1.5px solid grey;
+  border-radius: 1rem;
+}
+
+/* days-of-week checkboxes row */
+.days-checkboxes {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.days-checkboxes label {
+  display: flex;
+  align-items: center;
+  font-size: 1.0rem;
+}
+
+/* checkbox size */
+input[type="checkbox"] {
+  margin: 0 0.3rem 0 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* button styling */
+.my-button {
+  outline: 1.5px solid blue;
+  border: none;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+  background-color: lightblue;
+}

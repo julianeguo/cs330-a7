@@ -15,7 +15,7 @@
     </select>
   </div>
   
-  <!-- taken from https://www.w3schools.com/css/css3_flexbox.asp */ -->
+  <!-- Subject -->
   <div class="container">
     <p>Subject</p>
     <input class="searchbar" list="subjects" id="subject-search" type="text" name="search1" placeholder="Start typing subject (e.g. COMP_SCI)">
@@ -27,18 +27,60 @@
     </datalist>
   </div>
 
+  <!-- Course Number -->
   <div class="container">
     <p>Course Number</p>
     <input class="searchbar" id="number-search" type="text" name="search2" placeholder="Enter course number (e.g. 110)">
   </div>
 
-  <div>
+  <!-- Meeting End Time -->
+  <div class="container">
+    <p>Meeting End Time</p>
+    <select class="dropdown" id="end-time-operator">
+      <option value="lte">less than or equal to</option>
+      <option value="gte">greater than or equal to</option>
+    </select>
+    <input class="time-input" type="time" id="end-time">
+  </div>
+
+  <!-- Days of Week -->
+  <div class="container">
+    <p>Days of Week</p>
+    <select class="dropdown" id="days-filter">
+      <option value="include-only">include only these days</option>
+      <option value="exclude">exclude these days</option>
+      <option value="any">any days</option>
+    </select>
+
+    <div class="days-checkboxes">
+      <label><input type="checkbox" name="days" value="Mon"> Mon</label>
+      <label><input type="checkbox" name="days" value="Tue"> Tues</label>
+      <label><input type="checkbox" name="days" value="Wed"> Wed</label>
+      <label><input type="checkbox" name="days" value="Thu"> Thurs</label>
+      <label><input type="checkbox" name="days" value="Fri"> Fri</label>
+      <label><input type="checkbox" name="days" value="Sat"> Sat</label>
+      <label><input type="checkbox" name="days" value="Sun"> Sun</label>
+    </div>
+  </div>
+
+  <!-- Instructor Last Name -->
+  <div class="container">
+    <p>Instructor Last Name</p>
+    <select class="dropdown small-dropdown" id="instructor-op">
+      <option value="contains">contains</option>
+      <option value="starts">starts with</option>
+      <option value="equals">is exactly</option>
+    </select>
+    <input class="searchbar" id="instructor-lastname" type="text" placeholder="">
+  </div>
+
+  <!-- Open classes only -->
+  <div class="container">
     <input type="checkbox" id="openclassonly" name="openclassonly" />
     <label for="openclassonly">Show Open Classes Only</label>
   </div>
 
   <button class="my-button" type="button">Search</button>
 
-  
 </body>
 </html>
