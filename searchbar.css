@@ -53,7 +53,7 @@ label {
   margin: 0 0.5rem;
   padding: 0.5rem;
   margin-left: auto;
-  width: 15%;
+  width: 17%;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
   border-radius: 1rem;
@@ -63,6 +63,18 @@ label {
 .small-dropdown {
   width: 10%;
   margin-left: 0.5rem;
+}
+
+.tiny-dropdown {
+  font-size: 1.1em;
+  outline: 2px solid #684C96;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  margin-left: auto;
+  width: 10%;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  border-radius: 1rem;
 }
 
 /* time input for Meeting End Time */
