@@ -10,22 +10,29 @@
 } */
 
 h1 {
-  font-size: 2.0rem;
+  font-size: 2.5rem;
+  color:#4E2A84;
 }
 
-p, label {
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+label {
   font-size: 1.2rem;
 }
 
 .container {
   display: flex;            /* Arrange items in a row */ 
   align-items: center;      /* Vertically center */
+  padding: 0.2rem;
 }
 
 /* generic search bar input */
 .searchbar {
   margin: 0 0.5rem;
-  padding: 1.0rem;
+  padding: 0.8rem;
   width: 50%;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
