@@ -32,24 +32,24 @@ body {
 .top-bar h1 {
   font-size: 32px;
   font-weight: 600;
-  color: #7b2cbf;
+  color: #684C96;
 }
 
 .term-pill {
   padding: 10px 20px;
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 24px;
-  background: #f3e8ff;
+  background: #ede6f5;
   font-size: 18px;
   font-weight: 500;
-  color: #6b21a8;
+  color: #684C96;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .term-pill:hover {
-  background: #e9d5ff;
-  border-color: #6b21a8;
+  background: #e4d9f0;
+  border-color: #53417a;
 }
 
 /* Two-column layout */
@@ -64,7 +64,7 @@ body {
 
 /* LEFT COLUMN — course list */
 .course-list {
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 16px;
   background: #fafafa;
   padding: 16px;
@@ -74,11 +74,11 @@ body {
   min-height: 0;
   overflow: hidden;
   font-size: 20px;
-  box-shadow: 0 2px 8px rgba(123, 44, 191, 0.1);
+  box-shadow: 0 2px 8px rgba(104, 76, 150, 0.1);
 }
 
 .course-search {
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 24px;
   padding: 0 16px;
   font-size: 18px;
@@ -92,8 +92,8 @@ body {
 
 .course-search:focus {
   outline: none;
-  border-color: #6b21a8;
-  box-shadow: 0 0 0 3px rgba(123, 44, 191, 0.1);
+  border-color: #53417a;
+  box-shadow: 0 0 0 3px rgba(104, 76, 150, 0.1);
 }
 
 .course-list-scroll {
@@ -106,7 +106,7 @@ body {
 }
 
 .course-pill {
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 24px;
   flex: 1;
   min-height: 0;
@@ -120,10 +120,10 @@ body {
 }
 
 .course-pill:hover {
-  background: #f3e8ff;
-  border-color: #6b21a8;
+  background: #ede6f5;
+  border-color: #53417a;
   transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(123, 44, 191, 0.2);
+  box-shadow: 0 2px 6px rgba(104, 76, 150, 0.2);
 }
 
 .course-pill .code {
@@ -133,8 +133,8 @@ body {
 }
 
 .plus-btn {
-  border: 2px solid #7b2cbf;
-  background: #7b2cbf;
+  border: 2px solid #684C96;
+  background: #684C96;
   color: white;
   font-size: 22px;
   font-weight: bold;
@@ -152,14 +152,14 @@ body {
 }
 
 .plus-btn:hover {
-  background: #6b21a8;
-  border-color: #6b21a8;
+  background: #53417a;
+  border-color: #53417a;
   transform: scale(1.1);
-  box-shadow: 0 2px 8px rgba(123, 44, 191, 0.3);
+  box-shadow: 0 2px 8px rgba(104, 76, 150, 0.3);
 }
 
 .section-info {
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 16px;
   padding: 24px;
   line-height: 1.8;
@@ -169,7 +169,7 @@ body {
   overflow: hidden;
   min-height: 0;
   background: white;
-  box-shadow: 0 2px 8px rgba(123, 44, 191, 0.1);
+  box-shadow: 0 2px 8px rgba(104, 76, 150, 0.1);
   font-size: 18px;
 }
 
@@ -182,7 +182,7 @@ body {
   margin-top: 0;
   margin-bottom: 24px;
   font-size: 28px;
-  color: #6b21a8;
+  color: #684C96;
   font-weight: 600;
 }
 
@@ -195,7 +195,7 @@ body {
 
 .info-row strong {
   margin-right: 10px;
-  color: #6b21a8;
+  color: #684C96;
   font-weight: 600;
   font-size: 18px;
 }
@@ -204,22 +204,22 @@ body {
   margin-top: auto;
   align-self: flex-end;
   padding: 12px 32px;
-  background: #7b2cbf;
+  background: #684C96;
   color: white;
-  border: 2px solid #7b2cbf;
+  border: 2px solid #684C96;
   border-radius: 24px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 6px rgba(123, 44, 191, 0.2);
+  box-shadow: 0 2px 6px rgba(104, 76, 150, 0.2);
 }
 
 .switch-link:hover {
-  background: #6b21a8;
-  border-color: #6b21a8;
+  background: #53417a;
+  border-color: #53417a;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(123, 44, 191, 0.3);
+  box-shadow: 0 4px 12px rgba(104, 76, 150, 0.3);
 }
 
 .switch-link:active {
