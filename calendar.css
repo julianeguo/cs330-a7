@@ -228,6 +228,7 @@ body {
 .slot {
   background: rgba(0, 120, 255, 0.15);
   border-radius: 10px;
+  display: none;
   padding: 6px;
   text-align: left;
   vertical-align: top;
