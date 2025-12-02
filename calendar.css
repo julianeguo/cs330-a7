@@ -251,3 +251,30 @@ body {
   font-size: 11px;
   margin-top: 3px;
 }
+
+/* Popup notification */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #d4f8d4;       /* light green */
+  border: 2px solid #44a944; /* darker green */
+  color: #256b25;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
+}
+
+.popup.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.popup.hidden {
+  display: none;
+}
